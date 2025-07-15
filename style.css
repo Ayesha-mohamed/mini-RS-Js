@@ -181,8 +181,14 @@ margin-top: 20px;
 @media(min-width:391px) and (max-width:500px){
  .header{  display: block;
  }
+ .img2{
+    display: block;
+    margin-left: 30px;
+ }
  .img1{
     display: block;
+    margin-left: 30px;
+   
 
  }
  .pr {
@@ -190,6 +196,32 @@ margin-top: 20px;
  }
  .dilast{
     display: block;
+ }
+}
+
+/* // iphone */
+@media (min-width: 391px) and (max-width: 450px){
+ .header{  display: block;
+ }
+ .img2{
+    display: block;
+    margin-left: 30px;
+ }
+ .img1{
+    display: block;
+    margin-left: 30px;
+   
+
+ }
+ .pr {
+    display: block;
+ }
+ .dilast{
+    display: block;
+ }
+ .pr{
+    display: grid;
+    grid-template-columns:  300px 300px;
  }
 }
 
